@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "nx-serverless",
+  "version": "0.0.1",
+  "generators": {
+    "nx-serverless": {
+      "factory": "./src/generators/nx-serverless/generator",
+      "schema": "./src/generators/nx-serverless/schema.json",
+      "description": "nx-serverless generator"
+    }
+  }
+}
